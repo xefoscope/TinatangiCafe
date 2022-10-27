@@ -1,0 +1,308 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+p{
+  color: gray;
+}
+
+/*Title Section*/
+#title{
+  background-color: #FF7522;
+  padding: 3% 15% 5%;
+}
+
+.brand-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+  justify-content: flex-end;
+}
+
+.nav-item{
+  padding: 0 5px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+.about-quote-main{
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-quote{
+  font-weight: 150;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn-download{
+  margin: 10% 3% 5% 0%;
+}
+
+.fab-icon{
+  margin-right: 8px;
+}
+
+.title-img{
+  width: 90%;
+  right: 80%;
+}
+
+/*Features Section*/
+#menu{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.menu-img{
+  width: 90%;
+  margin: 1rem;
+}
+
+.fa-icon:hover{
+  color: #FF4C68;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-col{
+  padding: 5%;
+}
+
+/*Testimonials Section*/
+#price{
+  background-color: #D28D0D;
+  text-align: center;
+  color: white;
+
+}
+
+.price-image{
+  width: 15%;
+  margin: 20px;
+}
+
+.price-image2{
+  width: 30%;
+  margin: 20px;
+}
+
+.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+
+/*Press Section*/
+#location{
+  background: #FF7522;
+  text-align: center;
+  padding: 8%;
+}
+
+.location-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.location-text2{
+  color: white;
+}
+
+.location-icon{
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*feedback Section*/
+#feedback{
+  text-align: center;
+  padding: 100px;
+}
+
+.feedback-button{
+  left: 30px;
+}
+
+.table-feedback{
+  text-align: center;
+}
+
+.feedback-heading, .feedback-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.feedback-quote{
+  text-align: center;
+}
+
+/*Video Section*/
+#video{
+  background-color: #F09900;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.video-title{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/*Footer Section*/
+#contacts{
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.foot-icon{
+  padding: 20px 10px;
+  color: gray;
+}
+
+@media (max-width: 1024px) {
+  .title-quote{
+    font-size: 1.5rem;
+  }
+  .title-img{
+    transform: rotate(0);
+  }
+  .about-quote-main, .about-quote{
+    text-align: center;
+  }
+  .btn-download{
+    margin-right: 6px;
+  }
+  .price-text{
+    font-size: 1.5rem;
+  }
+  .location-text{
+    font-size: 2rem;
+  }
+  .location-icon{
+    font-size: 2.5rem;
+  }
+  .location-text2{
+    font-size: 1rem;
+  }
+  .feedback-heading, .video-title{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .location-text{
+    font-size: 2rem;
+  }
+  .location-icon{
+    font-size: 2.5rem;
+  }
+  .location-text2{
+    font-size: 1rem;
+  }
+  .title-img{
+    position: relative;
+    left: 5px;
+    width: 60%;
+  }
+  .column-one{
+    text-align: center;
+  }
+  .price-text{
+    font-size: 1.5rem;
+  }
+  .price-image{
+    width: 25%;
+  }
+  .price-image2{
+    width: 45%;
+  }
+  .menu-img2{
+    width: 40%;
+  }
+
+  .feedback-heading, .video-title{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 425px){
+  .brand-title{
+    font-size: 1.5rem;
+  }
+  .tinatangi_video{
+    width: 192px;
+    height: 144px;
+  }
+  .table-feedback{
+    width: 10px;
+  }
+  .feedback-heading{
+    text-align: center;
+  }
+  .feedback-quote{
+    text-align: center;
+  }
+  .video-title{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px){
+  .feedback-heading{
+    text-align: center;
+    font-size: 1.5rem
+  }
+  .feedback-quote{
+    text-align: center;
+  }
+  .video-title{
+    font-size: 1.5rem;
+  }
+}
